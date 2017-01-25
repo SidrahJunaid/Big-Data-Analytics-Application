@@ -1,0 +1,14 @@
+int intOnce (int[] array)
+{
+HashSet<integer> d= new HashSet<integer>();
+int a=0;
+for(int z=0;z<array.length;z++)
+{
+ if(d.contains(array[z]))
+{
+a=a-array[z];}
+else {
+d.add(array[z]);
+a=a+array[z];}}
+return a;
+}
