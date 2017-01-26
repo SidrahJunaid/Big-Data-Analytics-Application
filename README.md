@@ -1,3 +1,3 @@
 # BigData
-Lab Assignments https://github.com/SidrahJunaid/BigData/wiki
-
+Lab Assignments 
+LAb1 https://github.com/SidrahJunaid/BigData/wiki/LAB1
