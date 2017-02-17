@@ -6,3 +6,4 @@ Lab2 Assignment:https://github.com/SidrahJunaid/BigData/wiki/Lab2
 
 
 Lab3 Assignment:https://github.com/SidrahJunaid/BigData/wiki/Lab3
+Lab4 Assignment:https://github.com/SidrahJunaid/BigData/wiki/LAB-4
