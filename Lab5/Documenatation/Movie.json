@@ -1,0 +1,66 @@
+{
+  "templates": [
+    "what basically the movie is all about?",
+    "Tell me about the movie?",
+    "How\u0027s the movie?"
+  ],
+  "userSays": [
+    {
+      "id": "1df85252-750f-466d-a66d-3dc55c2cf504",
+      "data": [
+        {
+          "text": "what basically the movie is all about?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "67a3b8f4-0504-4155-a6f8-85ff65060281",
+      "data": [
+        {
+          "text": "Tell me about the movie?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61ff0e42-a7c6-444d-a60b-b1ed86bd6621",
+      "data": [
+        {
+          "text": "How\u0027s the movie?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b3bab6a0-c0fd-4857-8708-e6829352d926",
+  "name": "Movie",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "the movie is about a fat bunny who loves to sleep"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,83 @@
+{
+  "templates": [
+    "Summarize the video?",
+    "Main features of video?",
+    "Sum up the Video?",
+    "give me a summary of video?"
+  ],
+  "userSays": [
+    {
+      "id": "a96af8f0-1762-49e8-88dd-93fda150a695",
+      "data": [
+        {
+          "text": "Summarize the video?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bce505d1-11f0-431f-ae9f-02baa1aed764",
+      "data": [
+        {
+          "text": "Main features of video?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e80b2eda-c881-41ce-a51d-e9567baea4ec",
+      "data": [
+        {
+          "text": "Sum up the Video?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e13e084f-0868-4a72-8540-570b911b47ca",
+      "data": [
+        {
+          "text": "give me a summary of video?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "02eeee89-3e34-482e-a634-c8aae398766b",
+  "name": "Video Summary",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "VideoSummary",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@VideoSummary",
+          "name": "videosumary",
+          "value": "$videosummary"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The video has a big, fat grey color buuny.He lives in a burrow in a tree.The video shows grassland ,birds,stone,sky,trees,leaves and flowers."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

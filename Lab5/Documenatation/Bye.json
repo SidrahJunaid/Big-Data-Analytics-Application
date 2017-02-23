@@ -1,0 +1,71 @@
+{
+  "templates": [
+    "Good!",
+    "Thanks",
+    "Bye"
+  ],
+  "userSays": [
+    {
+      "id": "1037857d-830e-45f0-a642-c5c76dd5af75",
+      "data": [
+        {
+          "text": "Good!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc96c4fe-58e5-44f3-89ae-434595546938",
+      "data": [
+        {
+          "text": "Thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "10dfb74b-1d86-4009-a480-12b4ab8be738",
+      "data": [
+        {
+          "text": "Bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b8444a61-3c29-4c2f-883d-995f885bb451",
+  "name": "Bye",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@VideoSummary",
+          "name": "videosummary",
+          "value": "$videosummary"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Im Movie Master.Visit me if you need more help"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

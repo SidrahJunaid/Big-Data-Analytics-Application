@@ -1,0 +1,110 @@
+{
+  "templates": [
+    "details of Movie",
+    " let me talk to Movie Master",
+    "I want to talk to Movie Master",
+    "Ok Google, I want to talk to Movie Master",
+    "Ok Google, let me talk to Movie Master",
+    "Ok Google, details of Movie Master",
+    "Movie Master"
+  ],
+  "userSays": [
+    {
+      "id": "baae308d-1959-4481-b44b-b98afda3b497",
+      "data": [
+        {
+          "text": "details of Movie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "35430164-658a-4b75-a93b-ad6253a59d33",
+      "data": [
+        {
+          "text": " let me talk to Movie Master"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "999760ed-a516-4c1d-b166-0b51861f1844",
+      "data": [
+        {
+          "text": "I want to talk to Movie Master"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e756dffb-3ae4-4f9d-afee-93806ade89a8",
+      "data": [
+        {
+          "text": "Ok Google, I want to talk to Movie Master"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c3a17b95-e28a-47fd-a6a0-2a6446326c70",
+      "data": [
+        {
+          "text": "Ok Google, let me talk to Movie Master"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "939ecc9c-a8a5-4f4a-bbe2-b2154e2d15fc",
+      "data": [
+        {
+          "text": "Ok Google, details of Movie Master"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c81be40-f61c-4ccf-88ba-15141cb211dd",
+      "data": [
+        {
+          "text": "Movie Master"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1f699e14-66a1-4397-9097-ad3c833a111a",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hi, I am your Movie Master. What are you looking for?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}
