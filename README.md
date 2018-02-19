@@ -1,6 +1,7 @@
 # BigData Analytics and Application (CS-5542)(Graduate Course)
 
 Course Instructor: Professor Dr.Yugyung Lee
+Teaching Assistant:Sudhakar Reddy,Naga Krishna,Manikanta Maddula
 
 
 Lab Assignments 
