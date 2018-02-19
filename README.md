@@ -2,7 +2,7 @@
 Lab Assignments 
 
 
-LAb1 https://github.com/SidrahJunaid/BigData/wiki/LAB1
+Lab1 Assignment:https://github.com/SidrahJunaid/BigData/wiki/LAB1
 
 Lab2 Assignment:https://github.com/SidrahJunaid/BigData/wiki/Lab2
 
